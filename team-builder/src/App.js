@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import TeamMember from './components/TeamMember';
-import Form from './components/form';
+import TeamMember from './Components/TeamMember';
+import Form from './Components/Form';
 
 import './App.css';
 
@@ -33,7 +33,7 @@ export default function App (props) {
   return (
     <div className="App">
 
-      <h1>Team Builder</h1>
+      <h1>Team Builder by Brendan Kenney</h1>
 
       <Form addTeamMember={addTeamMember}/>
 
